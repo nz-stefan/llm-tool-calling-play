@@ -42,7 +42,7 @@ system_prompt <- readLines(F_SYSTEM_PROMPT)
 
 # initialize the bot
 # NOTE: this will require a valid API key in `.Renviron`
-chat <- chat_openai(system_prompt = SYSTEM_PROMPT)
+chat <- chat_openai(system_prompt = system_prompt)
 
 
 # UI definitions of the Shiny app -------------------------------------------
