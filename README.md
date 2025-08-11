@@ -17,7 +17,7 @@ tool call functionality.
 
 Here is a screen recording of the app in action.
 
-![exploratory-analysis-app-recording-short.gif](https://github.com/nz-stefan/llm-tool-calling-play/blob/master/exploratory-analysis-app-recording-short.gif)
+![exploratory-analysis-app-recording-short.gif](https://github.com/nz-stefan/llm-tool-calling-play/blob/main/exploratory-analysis-app-recording-short.gif)
 
 ## LLM tools
 
