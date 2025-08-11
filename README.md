@@ -72,19 +72,17 @@ The development environment of this project is encapsulated in a Docker containe
 1. Install Docker. Follow the instructions on https://docs.docker.com/install/
 2. Clone the GIT repository   
    `git clone https://github.com/nz-stefan/commute-explorer-2.git`
-3. Setup development Docker container  
+3. Open file `.Renviron-template` and follow instructions to set up your `OPENAI_API_KEY`.
+4. Setup development Docker container  
    `bin/setup-environment.sh`  
    You should see lots of container build messages
-4. Spin up the container  
+5. Spin up the container  
    `bin/start_rstudio.sh`
-5. Open `http://localhost:8792` in your browser to start a new RStudio session
-6. Install R packages required for this app. Type the following instructions into the R session window of RStudio  
+6. Open `http://localhost:8792` in your browser to start a new RStudio session
+7. Install R packages required for this app. Type the following instructions into the R session window of RStudio  
    `renv::restore()`
-7. Open file `.Renviron-template` and follow instructions to set up your `OPENAI_API_KEY`.
 
 The installation will take a few minutes. The package library will be installed into 
 the `renv/library` directory of the project path. Open the file `src/app.R` and hit the 
 "Run app" button in the toolbar of the script editor. The Shiny app should open in 
 a new window. You may need to instruct your browser to not block popup windows for this URL.
-
-
